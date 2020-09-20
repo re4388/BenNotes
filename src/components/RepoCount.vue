@@ -1,8 +1,16 @@
 <template>
   <div class="total-repo-container mt-3">
-    <button type="button" class="btn btn-primary">
-      Total Work <span class="badge badge-light"> {{ repoNumber }}</span>
-    </button>
+    <div>
+      <h6 class="sub-title">My Repo in Order</h6>
+    </div>
+    Use <b>Dropdown Menu</b> to filter; <br />
+    Use <b>Search Bar </b> to filter out you want to check <br />
+    Currently, the number of repositories is :
+    <span class="badge badge-light"> {{ repoNumber }}</span>
+    <br />
+    Actually, you can also <b>search anyone's GitHub repo </b>by typing
+    <b>user name </b> <br />
+    (The defualt my a/c, <b> re4388 </b>).
   </div>
 </template>
 
@@ -16,6 +24,12 @@ export default {
 </script>
 
 <style scoped>
+.sub-title {
+  display: inline-block;
+  border-bottom: 3px solid black;
+  text-transform: uppercase;
+}
+
 .total-repo-container {
   margin-left: 30px;
   margin-top: 20px;

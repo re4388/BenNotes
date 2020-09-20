@@ -3,8 +3,9 @@
     <div>
       <!-- <h1>Why?</h1> -->
     </div>
-    <p class="mt-4">
-      A Place to see my recent Works.
+    <p class="mt-4 ml-3">
+      Show my Projects in Github and other projects (external-link in doropdown
+      menu)
     </p>
   </div>
 </template>

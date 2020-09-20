@@ -3,7 +3,7 @@
     repo-count(:repoNumber="numberOfRepo")
     .center.d-flex.m-4
       .d-flex.m-2
-        b-form-input(v-model='userId', debounce='500', placeholder='Enter your Github username')
+        b-form-input(class="mr-2" v-model='userId', debounce='500', placeholder='Enter your Github username')
         b-form-input(v-model='searchWords', debounce='500', placeholder='Enter keyword to search')
 
     div(v-if='validUsername')
@@ -11,14 +11,14 @@
       .center.d-flex.flex-wrap(v-if='searchWords')
         ul(v-for='i in filterSearch', :key='i.id')
           li
-            a(:href='`${i.html_url}`', target='_blank', class="h5")
+            a(:href='`${i.html_url}`', target='_blank', class="text-dark")
               | {{ i.name }} {{ i.fork?'/ forked':'' }}
 
       //- when state is not filter, we show all repos
       .center.d-flex.flex-wrap(v-if="searchWords === ''")
         ul(v-for='i in repo', :key='i.id')
           li
-            a(:href='`${i.html_url}`', target='_blank', class="h5")
+            a(:href='`${i.html_url}`', target='_blank', class="text-dark")
               | {{ i.name }} {{ i.fork?'/ forked':'' }}
     div(v-else='')
       .d-flex.m-5
@@ -29,15 +29,18 @@
 </template>
 
 <script>
+// store
 import { GET_USER } from "@/store/actions.type";
 import { mapGetters } from "vuex";
-import RepoCount from "./RepoCount";
+
+// event bus
 import { EventBus } from "../event_bus";
 
 export default {
   name: "Repos",
   components: {
-    RepoCount
+    // lazy loading
+    RepoCount: () => import("./RepoCount")
   },
   data() {
     return {

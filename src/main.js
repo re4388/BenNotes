@@ -6,10 +6,13 @@ import ApiService from "./common/api.service";
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap';
 import './custom.scss'
+import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/js/all.js'
+
+
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 
-Vue.prototype.$bus = new Vue();
 
 
 Vue.config.productionTip = false
