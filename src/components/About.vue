@@ -1,13 +1,28 @@
-<template lang='pug'>
-  div
-    h1.m-4
-      | What is Github Fast Look?
-    p.m-4
-      | I feel pain to see all of my repo in Github and no way to filter them!!
+<template>
+  <div class="about-container">
+    <div>
+      <!-- <h1>Why?</h1> -->
+    </div>
+    <p class="mt-4">
+      A Place to see my recent Works.
+    </p>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'About'
-}
+  name: "About"
+};
 </script>
+
+<style scoped>
+.about-container {
+  margin-left: 20px;
+  margin-top: 20px;
+  text-decoration-color: bisque;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+</style>

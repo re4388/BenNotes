@@ -9,6 +9,8 @@ import './custom.scss'
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 
+Vue.prototype.$bus = new Vue();
+
 
 Vue.config.productionTip = false
 ApiService.init();
