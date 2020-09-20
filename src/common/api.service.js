@@ -7,12 +7,17 @@ const ApiService = {
     Vue.use(axios);
   },
   get(userId) {
+    const githubToken = process.env.VUE_APP_GITHUB_TOKEN;
+
     return axios({
       method: "get",
-      url: `${API_URL}${userId}/repos?page=1&per_page=100`
+      url: `${API_URL}${userId}/repos?page=1&per_page=100`,
+      headers: {
+        Authorization: "token " + githubToken
+      }
       // auth: {
       //   username: process.env.VUE_APP_GITHUB_USER_NAME,
-      //   password: process.env.VUE_APP_GITHUB_PASSWORD
+      //   password: process.env.VUE_APP_GITHUB_TOKEN
       // }
     }).catch(error => {
       throw new Error(`ApiService ${error}`);
