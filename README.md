@@ -1,15 +1,12 @@
-# Github Quick Look v2
+# BenNote
 
-## 主要是加上Vuex和pug
+## ShowCase My works
 
 ## Live Demo
-To add
-
-## Todo
-[] live demo
+To Add
 
 
-## 學習筆記
+## Notes while building this site..
 1. pug轉移
 1.1 可以利用網站幫忙
 1.2 轉移後，效益很有可觀的，本來的html寫法，很快就喪失閱讀性了。
@@ -33,29 +30,3 @@ To add
 1. [re4388/real_world_vue_practice](https://github.com/re4388/real_world_vue_practice)
 2. [re4388/vue_github_search](https://github.com/re4388/vue_github_search)
 3. [PugHtml - Pug and HTML online converter in realtime](https://pughtml.com/)
-
-
-
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
