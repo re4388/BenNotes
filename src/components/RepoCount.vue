@@ -1,16 +1,11 @@
 <template>
   <div class="total-repo-container mt-3">
     <div>
-      <h6 class="sub-title">My Repo in Order</h6>
+      <h6 class="sub-title">My Repo in Order / repo number:{{ repoNumber }}</h6>
     </div>
-    Use <b>Dropdown Menu</b> to filter; <br />
-    Use <b>Search Bar </b> to filter out you want to check <br />
-    Currently, the number of repositories is :
-    <span class="badge badge-light"> {{ repoNumber }}</span>
-    <br />
-    Actually, you can also <b>search anyone's GitHub repo </b>by typing
-    <b>user name </b> <br />
-    (The defualt my a/c, <b> re4388 </b>).
+    Use <b>Search Bar </b> to filter what you want to check; also can
+    <b>Search anyone's GitHub repo </b>by typing <b>User Name </b> <br />
+    (The defualt is mine: <b> re4388 </b>).
   </div>
 </template>
 
