@@ -20,20 +20,6 @@
       "desc": "A Web Resource Organizer (drag and drop and foldable Area), powered by Angular 10",
       "DemoLink": "https://drag-drop-to-watch.web.app/yt-link-v2",
       "id": 2
-    },
-    {
-      "name": "CRUD App",
-      "link": "https://github.com/re4388/vue-crud-exmaple",
-      "desc": "A CRUD App, made with Vue, Backend is powered by Node.js + firebase realtimeDB",
-      "DemoLink": "https://drive.google.com/file/d/1cEBtpoqV_yjXW3IijAd90Tyhj_hi-bw9/view",
-      "id": 3
-    },
-    {
-      "name": "Word Cloud",
-      "link": "https://github.com/re4388/word-cloud",
-      "desc": "I use pipeline dream as twitter web scraper, save data into Faunadb. use Vanilla JS to pull data and show it as word-cloud via d3.js",
-      "DemoLink": "https://angular-82e48.web.app/",
-      "id": 4
     }
   ]
 }
