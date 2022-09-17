@@ -2,7 +2,6 @@
   <div class="about-container">
     <div class="card" style="width: 18rem;">
       <h5 class="card-title m-auto p-3">{{ work.name }}</h5>
-      <img :src="work.picLink" class="card-img-top m-auto p-3" alt="..." />
       <div class="card-body">
         {{ work.desc }}
       </div>

@@ -1,11 +1,13 @@
 <template>
   <div class="total-repo-container mt-3">
     <div>
-      <h6 class="sub-title">My Repo in Order / repo number:{{ repoNumber }}</h6>
+      <h3>GitHub Repo Fast Look</h3>
     </div>
-    Use <b>Search Bar </b> to filter what you want to check; also can
-    <b>Search anyone's GitHub repo </b>by typing <b>User Name </b> <br />
-    (The defualt is mine: <b> re4388 </b>).
+    Use <b>Search Bar </b> to filter
+    <br>
+    <b>You can search anyone's GitHub repo as well!</b>
+    <br />
+    (The default is mine: <b> re4388 </b>).
   </div>
 </template>
 

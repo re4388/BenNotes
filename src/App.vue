@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <b-container>
-      <header>        <!-- <a href="https://github.com/">
+      <header>
+        <!-- <a href="https://github.com/">
           <img src="./assets/github_small.png" alt="Github" small logo />
         </a> -->
         <ul class="nav nav-pills">
@@ -13,14 +14,8 @@
           </li>
 
           <li class="nav-item dropdown">
-            <a
-              class="text-dark"
-              data-toggle="dropdown"
-              href="#"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
+            <a class="text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">
               <i class="fas fa-bars fa-2x bar-icon"></i>
             </a>
             <div class="dropdown-menu">
@@ -33,21 +28,13 @@
                 Show Forked Repos
               </a> -->
               <a class="dropdown-item" @click="getMyRepo()"> Show my Repos</a>
-              <a class="dropdown-item" @click="getRepoByOrder()"
-                >All Repos by Order</a
-              >
+              <a class="dropdown-item" @click="getRepoByOrder()">All Repos by Order</a>
               <div class="dropdown-divider"></div>
               <h6 class="dropw-down-subtitle text-black-50">App in Action</h6>
-              <a
-                class="dropdown-item"
-                href="https://code-train-2ba48.web.app/sign-in"
-              >
+              <a class="dropdown-item" href="https://code-train-2ba48.web.app/sign-in">
                 Calorines Awareness
               </a>
-              <a
-                class="dropdown-item"
-                href="https://drag-drop-to-watch.web.app/yt-link-v2"
-              >
+              <a class="dropdown-item" href="https://drag-drop-to-watch.web.app/yt-link-v2">
                 My Informatica
               </a>
               <div class="dropdown-divider"></div>
@@ -94,11 +81,9 @@
         </ul>
       </header>
       <hr class="hr-line" />
-      <h6 class="sub-title recent-work">Recent Work</h6>
-      <div
-        class="d-flex
-        justify-content-center flex-wrap bd-highlight m-3"
-      >
+      <h3 class="recent-work">Recent Work</h3>
+      <div class="d-flex
+        justify-content-center flex-wrap bd-highlight m-3">
         <div v-for="work in recentWork" :key="work.id">
           <work :work="work" />
         </div>
@@ -173,6 +158,7 @@ html {
   height: 100%;
   background: #63d0ff;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;

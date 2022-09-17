@@ -4,8 +4,7 @@
       <!-- <h1>Why?</h1> -->
     </div>
     <p class="mt-4 ml-3">
-      Show my Projects in Github and other projects (external-link in doropdown
-      menu)
+      Website to show my Projects
     </p>
   </div>
 </template>
