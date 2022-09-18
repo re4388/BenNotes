@@ -1,9 +1,9 @@
 {
   "data": [
     {
-      "name": "AutoML Evaluation Component",
+      "name": "Nestjs Authn/Authz and Todos",
       "link": "https://github.com/re4388/muen_deepra_ui_20200508",
-      "desc": "A Component show AutoML result. Interactive between sub-components . Display metrics component,  modal component to display Confusion Matrix (D3.js), char component(Chart.js), range bar",
+      "desc": "Authn(Jwt), Authz(RBAC via casbin), Mongoose todos CRUD",
       "DemoLink": "",
       "id": 0
     },
