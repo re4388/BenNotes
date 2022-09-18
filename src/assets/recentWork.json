@@ -2,7 +2,7 @@
   "data": [
     {
       "name": "Nestjs Authn/Authz and Todos",
-      "link": "https://github.com/re4388/muen_deepra_ui_20200508",
+      "link": "https://github.com/re4388/NestJs-Todos",
       "desc": "Authn(Jwt), Authz(RBAC via casbin), Mongoose todos CRUD",
       "DemoLink": "",
       "id": 0
