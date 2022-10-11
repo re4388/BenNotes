@@ -1,24 +1,24 @@
 {
   "data": [
     {
+      "name": "buying-frenzy (nestjs & postgres)",
+      "link": "https://github.com/re4388/buying-frenzy-nestjs-postgres",
+      "desc": "A backend service and a database for a food delivery platform",
+      "DemoLink": "https://buying-frenzy-ben.herokuapp.com/api",
+      "id": 0
+    },
+    {
       "name": "Nestjs Authn/Authz and Todos",
       "link": "https://github.com/re4388/NestJs-Todos",
-      "desc": "Authn(Jwt), Authz(RBAC via casbin), Mongoose todos CRUD",
+      "desc": "Authn(Jwt), Authz(RBAC via casbin), Mongoose ",
       "DemoLink": "",
-      "id": 0
+      "id": 1
     },
     {
       "name": "Calories Awareness",
       "link": "https://github.com/re4388/calories-awareness",
       "desc": "A full feature Calories Tracker, made with Angular 10. Authentication (mail and third-party are available) made with Firebase SDK, all records summarized chart to show your records. Finally, you also download all of your records and subscribe to get a daily notification",
       "DemoLink": "https://code-train-2ba48.web.app/sign-in",
-      "id": 1
-    },
-    {
-      "name": "My Informatics",
-      "link": "https://github.com/re4388/drag-drop-2-firebase",
-      "desc": "A Web Resource Organizer (drag and drop and foldable Area), powered by Angular 10",
-      "DemoLink": "https://drag-drop-to-watch.web.app/yt-link-v2",
       "id": 2
     }
   ]
