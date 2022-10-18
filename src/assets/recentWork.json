@@ -1,9 +1,9 @@
 {
   "data": [
     {
-      "name": "buying-frenzy (nestjs & postgres)",
+      "name": "buying-frenzy",
       "link": "https://github.com/re4388/buying-frenzy-nestjs-postgres",
-      "desc": "A backend service and a database for a food delivery platform",
+      "desc": "A backend service and a database for a food delivery platform, powered by Nest.js, PostgreSQL",
       "DemoLink": "https://buying-frenzy-ben.herokuapp.com/api",
       "id": 0
     },
