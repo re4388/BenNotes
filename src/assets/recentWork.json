@@ -17,7 +17,7 @@
     {
       "name": "Calories Awareness",
       "link": "https://github.com/re4388/calories-awareness",
-      "desc": "A full feature Calories Tracker, made with Angular 10. Authentication (mail and third-party are available) made with Firebase SDK, all records summarized chart to show your records. Finally, you also download all of your records and subscribe to get a daily notification",
+      "desc": "A Calories Tracker, features including Auth (mail and 3rd-party), records are displayed in chart. You can download all records and subscribe to get a daily notification, powered by Angular and firebase",
       "DemoLink": "https://code-train-2ba48.web.app/sign-in",
       "id": 2
     }
