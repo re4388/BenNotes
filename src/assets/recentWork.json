@@ -8,9 +8,9 @@
       "id": 0
     },
     {
-      "name": "Nestjs Authn/Authz and Todos",
-      "link": "https://github.com/re4388/NestJs-Todos",
-      "desc": "Authn(Jwt), Authz(RBAC via casbin), Mongoose ",
+      "name": "A Simple Motor Vehicle System",
+      "link": "https://github.com/re4388/a-simple-motor-vehicle_system",
+      "desc": "motor Vehicle System powered by Nest.js, PostgreSQL",
       "DemoLink": "",
       "id": 1
     },
