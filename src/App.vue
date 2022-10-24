@@ -81,7 +81,7 @@
         </ul>
       </header>
       <hr class="hr-line" />
-      <h3 class="recent-work">Recent Work</h3>
+      <h3 class="recent-work">off-work side projects</h3>
       <div class="d-flex
         justify-content-center flex-wrap bd-highlight m-3">
         <div v-for="work in recentWork" :key="work.id">
@@ -90,9 +90,9 @@
       </div>
 
       <hr class="hr-line" />
-      <main>
+      <!-- <main>
         <router-view />
-      </main>
+      </main> -->
     </b-container>
   </div>
 </template>
